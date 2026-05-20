@@ -1,15 +1,15 @@
 import type { Metadata } from "next";
 import MockLayout from "@/components/layouts/layout";
-import Homepage from "@/components/modules/home/Home";
+import PropertiesPage from "@/components/modules/properties/PropertiesPage";
 
 export const metadata: Metadata = {
-  title: "VeeProperti - Homepage",
+  title: "VeeProperti - Properties",
 };
 
-export default function Home() {
+export default function PropertiPage() {
   return (
     <MockLayout>
-      <Homepage />
+      <PropertiesPage />
     </MockLayout>
   );
 }
